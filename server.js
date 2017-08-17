@@ -31,6 +31,8 @@ app.set("view engine", "handlebars");
 //imports the routes
 var routes = require('./controllers/burgers_controllers.js');
 app.use('/', routes);
+app.use("/burgers/create", routes);
+app.use("/burgers/update", routes);
 
 
 //begins listener

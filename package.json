@@ -4,6 +4,7 @@
   "description": "full stack burger site where users can add a custom burger to the view then delete it, all information get saved via mysql.",
   "main": "server.js",
   "scripts": {
+    "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
